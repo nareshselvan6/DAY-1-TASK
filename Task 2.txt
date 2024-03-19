@@ -1,0 +1,12 @@
+objects and its internal representation in Javascript?
+
+[1] javascript object is commonly known as collection values with state and behaviour,
+like properties and methods
+[2] those properties are associate with key and value pair
+[3] the objects are also consider as one of the fundamental data types
+[4] object use to organize and manipulate the related data in structured manner
+[5] the internal representation of objects are typically implemented with hash table and data structured
+[6] one of the best feature of object is their dynamic nature
+[7] most importantly we can edit the objects in runtime
+[8] dynamic behaviour of object make javascript more powerful
+[9] method of esssentially function object store the property value with in the object

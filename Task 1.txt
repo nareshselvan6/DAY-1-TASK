@@ -1,0 +1,22 @@
+Difference between HTTP1.1 vs HTTP2?
+
+HTTP means hypertext markup language
+
+HTTP1.1:-
+
+[1] HTTP 1.1 was release in 1997, after one year of previous version
+[2] it host header is specially important to route message through proxy
+[3] it is posssible to execute several request using one single connection
+[4] it is used to avoid server refusing unprocessable requests
+[5] this version add six methods as extra, these are the methods put,patch,delete,connect,trace,options
+[6] it works in textual format
+
+HTTP2:-
+
+[1] HTTP 2 was released in 2015 ,after eighteen year of HTTP 1.1 release
+[2] this version allows to send requests and receive respons asynchronously, 
+in that way we can use multiple request at the same time in single connection
+[3] it prioritize there request in numerical way
+[4] it works in binary protocol
+[5] it uses push frame by server so that it collects all multipages
+[6] nowadays most of the server are updated ffrom HTTP 1.1 to HTTP 2 for best potential
